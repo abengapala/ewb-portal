@@ -1,0 +1,6 @@
+@echo off
+echo Installing requirements...
+python -m pip install -r requirements.txt
+echo Starting EWB Operations Portal...
+python -m streamlit run app.py
+pause

@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Data files — NEVER push real client data to GitHub
+*.xlsx
+*.xls
+*.xlsm
+*.gpg
+ewb_data/reports/
+ewb_data/EWB_BAU_DAILY_STATUS_REPORT_master.xlsx
+ewb_data/master_backup_*.xlsx
+
+# CSV data files (contain borrower personal data)
+ewb_data/chcode_accounts.csv
+ewb_data/datagrid_accounts.csv
+ewb_data/status_map.csv
+
+# Environment
+.env
+.venv
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
